@@ -1,54 +1,28 @@
 [[GCC_support_libraries]]
-arch = "aarch64"
-git-tree-sha1 = "cc3c09bf5077eb32248dfeaff27597567979b77e"
-os = "macos"
-
-    [[GCC_support_libraries.download]]
-    sha256 = "c4cfdfaa2ef86295ac36e9954a9eb0859cd604b02acd4935f29d4ac72398f32b"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-v14.2.0-aarch64-apple-darwin.tar.gz"
-[[GCC_support_libraries]]
 arch = "x86_64"
-git-tree-sha1 = "d641f0ea72091f17189e3fff442186636c6e5420"
+git-tree-sha1 = "c3410c73068d9456d619ebb7ff7678e0f0e3a53c"
 os = "macos"
 
     [[GCC_support_libraries.download]]
-    sha256 = "40b16be8e021d4ee3f7396f48d8a37d38ff58c1323c353c1531801dee12d7779"
+    sha256 = "cb39b2d23b16c857aeac4e21617716cd56846bb021beddc0a4b330946859884f"
     url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-v14.2.0-x86_64-apple-darwin.tar.gz"
 
 [[GCC_support_libraries-build_log]]
-arch = "aarch64"
-git-tree-sha1 = "08184663c064d7c03ed2a894bb52692e81a0bb52"
-lazy = true
-os = "macos"
-
-    [[GCC_support_libraries-build_log.download]]
-    sha256 = "a42a462b88cf384444221b9b6dba2b86ba6414a5fe56b10a2cc2aa2f75037374"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-build_log-v14.2.0-aarch64-apple-darwin.tar.gz"
-[[GCC_support_libraries-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "7533848b2086adc3cbdcd5de9bf4a76da55f7337"
+git-tree-sha1 = "675200a94ce1a0b7559ba616daaf45b7156cd801"
 lazy = true
 os = "macos"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "c95e26c9e68ca81d715b409de0afe01a138c1e1624a49d77ca106814cd81d189"
+    sha256 = "d0e604d1151874a1bcb00617ef0ce10918e186c7dbe7cb393d96296d46acbd0a"
     url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-build_log-v14.2.0-x86_64-apple-darwin.tar.gz"
 
 [[GCC_support_libraries-extract_log]]
-arch = "aarch64"
-git-tree-sha1 = "794a7d630246525094139ea7e2ce0aff0be8787a"
-lazy = true
-os = "macos"
-
-    [[GCC_support_libraries-extract_log.download]]
-    sha256 = "166fccf7e546dbfe89686b3f6f0e0593ae5b8a188b40d767dd798a5b9045023e"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-extract_log-v14.2.0-aarch64-apple-darwin.tar.gz"
-[[GCC_support_libraries-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "55c8d0ff9f4c84d17b1d946247700bfa10de0be1"
+git-tree-sha1 = "7bfdc0538a527f64a3b47fe70e9b133b181d26b9"
 lazy = true
 os = "macos"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "59972eb695e358ea16cc4d0f05eca9b725eb4ea035ff3a965ebce20dce02e53a"
+    sha256 = "6769d36bdcfb495172dc90acf4b63c223187e9f8bfdb6067e2a585e609c6c913"
     url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-extract_log-v14.2.0-x86_64-apple-darwin.tar.gz"

@@ -1,28 +1,437 @@
 [[GCC_support_libraries]]
 arch = "x86_64"
-git-tree-sha1 = "c3410c73068d9456d619ebb7ff7678e0f0e3a53c"
+git-tree-sha1 = "e6cb0312a56b672051830cb4c077dffcc7775141"
+libc = "glibc"
+os = "linux"
+
+    [[GCC_support_libraries.download]]
+    sha256 = "0bd57d455bae4ca3610a30efbf91fb7fd2199ee5b267b528a9956d1ce04c445f"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-v14.2.0-x86_64-linux-gnu.tar.gz"
+[[GCC_support_libraries]]
+arch = "i686"
+git-tree-sha1 = "960c795d4fc1e57a5ab1274e2bf88028c754e02d"
+libc = "glibc"
+os = "linux"
+
+    [[GCC_support_libraries.download]]
+    sha256 = "00423fd1e86de818a6501ed223c6d4e66407e0e8c86f1800b8c7edf1966a2cb5"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-v14.2.0-i686-linux-gnu.tar.gz"
+[[GCC_support_libraries]]
+arch = "aarch64"
+git-tree-sha1 = "16b473a1cba20c65bd17aa9beed8302365141a09"
+libc = "glibc"
+os = "linux"
+
+    [[GCC_support_libraries.download]]
+    sha256 = "0fea4bb1d71f19ac9a902b9a15a2670ff7cb504d9e46be21e8be06201a243895"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-v14.2.0-aarch64-linux-gnu.tar.gz"
+[[GCC_support_libraries]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "c6defae4ecfba40d5ff31610b3920abdcf638e2e"
+libc = "glibc"
+os = "linux"
+
+    [[GCC_support_libraries.download]]
+    sha256 = "9f5b04dba95889cd7383de70621ec52076e2606329f14bae21d03984b7a7767b"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-v14.2.0-armv6l-linux-gnueabihf.tar.gz"
+[[GCC_support_libraries]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "35b5bcaa388b408a920221b1811c16f035c326fe"
+libc = "glibc"
+os = "linux"
+
+    [[GCC_support_libraries.download]]
+    sha256 = "138e54dd6f747a1fc48c0a41261053ed44dee42470ba1430def9bd80c8450d0b"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-v14.2.0-armv7l-linux-gnueabihf.tar.gz"
+[[GCC_support_libraries]]
+arch = "powerpc64le"
+git-tree-sha1 = "c79c19b89fce14f8f36df284274b8e39f74e5b15"
+libc = "glibc"
+os = "linux"
+
+    [[GCC_support_libraries.download]]
+    sha256 = "edd7010e5a5c22d38f66be45b42bd9c25cd48c153450a95f7b22d8547e31c4d4"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-v14.2.0-powerpc64le-linux-gnu.tar.gz"
+[[GCC_support_libraries]]
+arch = "x86_64"
+git-tree-sha1 = "fc64b4120c1181847040774bff1da6f3bcd14282"
+libc = "musl"
+os = "linux"
+
+    [[GCC_support_libraries.download]]
+    sha256 = "93d2f6e2e830efca273d0a471abb86c15d59a83d9492413385fb7b36383d8fd8"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-v14.2.0-x86_64-linux-musl.tar.gz"
+[[GCC_support_libraries]]
+arch = "i686"
+git-tree-sha1 = "ba879e576268362e4529ed027f3a476470407086"
+libc = "musl"
+os = "linux"
+
+    [[GCC_support_libraries.download]]
+    sha256 = "06aa2f89f8aced6c44ac9db8cd8b3644b4d13739a2aa874d210ca8ffd1095931"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-v14.2.0-i686-linux-musl.tar.gz"
+[[GCC_support_libraries]]
+arch = "aarch64"
+git-tree-sha1 = "f7ad5f5c89fe007719b1e1135a64ac31b289f35c"
+libc = "musl"
+os = "linux"
+
+    [[GCC_support_libraries.download]]
+    sha256 = "ed4b7a534e2805219f8ddcc4c7e8c9697f159f2b4d585b8effd42c7d612a9568"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-v14.2.0-aarch64-linux-musl.tar.gz"
+[[GCC_support_libraries]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "2c983428d029b6c248fd62cde0e31c0113fa6cde"
+libc = "musl"
+os = "linux"
+
+    [[GCC_support_libraries.download]]
+    sha256 = "d4138ef3a4993a322341f995ed91573e63338f0dd4a5eec4736e61612f1689e3"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-v14.2.0-armv6l-linux-musleabihf.tar.gz"
+[[GCC_support_libraries]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "7dde2d0fc92ed86a23bfceea1f8358f8f06b385a"
+libc = "musl"
+os = "linux"
+
+    [[GCC_support_libraries.download]]
+    sha256 = "a6a579d5f9fca1123b38b1c1a179276672f17dd0a4e3888be6c5e4734e07b5fe"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-v14.2.0-armv7l-linux-musleabihf.tar.gz"
+[[GCC_support_libraries]]
+arch = "x86_64"
+git-tree-sha1 = "769b0279bbd9d31f3dc0d92c2fb7e3bcb2217aad"
+os = "windows"
+
+    [[GCC_support_libraries.download]]
+    sha256 = "8b71efa2673249762aa2fe3cc2ea6648c10b8a63c41b21263eed687fb09e120b"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-v14.2.0-x86_64-w64-mingw32.tar.gz"
+[[GCC_support_libraries]]
+arch = "i686"
+git-tree-sha1 = "84db0384fffea2288eb4dc0f6e46b9f3dd08d2aa"
+os = "windows"
+
+    [[GCC_support_libraries.download]]
+    sha256 = "748071eb4514d2ff506389a288885de430d973ef004c01065b4e20b222d0c35a"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-v14.2.0-i686-w64-mingw32.tar.gz"
+[[GCC_support_libraries]]
+arch = "x86_64"
+git-tree-sha1 = "e41ec1e82aa88042254a57b9ab09ec9fb8f1d827"
 os = "macos"
 
     [[GCC_support_libraries.download]]
-    sha256 = "cb39b2d23b16c857aeac4e21617716cd56846bb021beddc0a4b330946859884f"
+    sha256 = "be376a66be536f9c6a70161ce0c2da771ba0eff4fa0ffc1d90a0a717b1fee0ff"
     url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-v14.2.0-x86_64-apple-darwin.tar.gz"
+[[GCC_support_libraries]]
+arch = "aarch64"
+git-tree-sha1 = "0fc4df92a420199e7917eaabf17586bc6edd0cf2"
+os = "macos"
+
+    [[GCC_support_libraries.download]]
+    sha256 = "d90f33cee12c084f5021d421f8624b4808b4151538361ccd43075f5fa742e460"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-v14.2.0-aarch64-apple-darwin.tar.gz"
 
 [[GCC_support_libraries-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "675200a94ce1a0b7559ba616daaf45b7156cd801"
+git-tree-sha1 = "98aaa8073911b52f74e1421266433e6207a51b26"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[GCC_support_libraries-build_log.download]]
+    sha256 = "6922a6bce23626d68c6a3b2bc734264a887fcaa2a8e28fa493b3b58716b00462"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-build_log-v14.2.0-x86_64-linux-gnu.tar.gz"
+[[GCC_support_libraries-build_log]]
+arch = "i686"
+git-tree-sha1 = "88b7beb128de3a078bbb56eb7f6557ca7256526f"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[GCC_support_libraries-build_log.download]]
+    sha256 = "a7fc4b6b7883e3d6af3ffc75ed6f986bc0bc11cbd758fa67517682039a4061d1"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-build_log-v14.2.0-i686-linux-gnu.tar.gz"
+[[GCC_support_libraries-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "4f3ffa1a5883d6f74a2935569526f9e54730c338"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[GCC_support_libraries-build_log.download]]
+    sha256 = "30d25da33c2e38260e509cea778ae9ab8c8dc87560d468d6f5c75224acbd13e0"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-build_log-v14.2.0-aarch64-linux-gnu.tar.gz"
+[[GCC_support_libraries-build_log]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "e6da146d9e9cae14ca2f24b696aa95e4ac5415b8"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[GCC_support_libraries-build_log.download]]
+    sha256 = "0a493abb409a4cd7a602978e9e756a9d44d8b658c68e38d785498b5d3b0b47c0"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-build_log-v14.2.0-armv6l-linux-gnueabihf.tar.gz"
+[[GCC_support_libraries-build_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "370fc9a3b15acc3757b94544bd6c39ade38f19d5"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[GCC_support_libraries-build_log.download]]
+    sha256 = "72ec57cad73012b99200d8b841348f5a44ee6ee8113f5da30376e8882d0fedba"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-build_log-v14.2.0-armv7l-linux-gnueabihf.tar.gz"
+[[GCC_support_libraries-build_log]]
+arch = "powerpc64le"
+git-tree-sha1 = "e821d41c1ba9bba901d1396d9631832aab2923dd"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[GCC_support_libraries-build_log.download]]
+    sha256 = "26767513f87e2acc0b7ae8c2177969a4d5f782d36d54fecbf389492e1283a990"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-build_log-v14.2.0-powerpc64le-linux-gnu.tar.gz"
+[[GCC_support_libraries-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "79ffacae8fe6d4a8eb36cd94c88eebcaee51b1ee"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[GCC_support_libraries-build_log.download]]
+    sha256 = "cf98bb14ecfaf861d518aa7a914133fdcba1bfdd63468c470dd18f80f2a6bee5"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-build_log-v14.2.0-x86_64-linux-musl.tar.gz"
+[[GCC_support_libraries-build_log]]
+arch = "i686"
+git-tree-sha1 = "bb711d9e62387340ef3edb889ab402d7a298b590"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[GCC_support_libraries-build_log.download]]
+    sha256 = "eaaf0cec4d6efe88d86adb222183c494127b9a1b8357fb02046a24145d1dd360"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-build_log-v14.2.0-i686-linux-musl.tar.gz"
+[[GCC_support_libraries-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "f582ef11b1b8a47bcd67e35e62041797f844b5e0"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[GCC_support_libraries-build_log.download]]
+    sha256 = "2b5c87a0abd7b0d1a309933feeb06c47e588348e0b774c2e0eaf1199d204f561"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-build_log-v14.2.0-aarch64-linux-musl.tar.gz"
+[[GCC_support_libraries-build_log]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "9a4f5883ead6f9e7a6abbab0102e49c7686e97c0"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[GCC_support_libraries-build_log.download]]
+    sha256 = "79b3c1c67c7dbd26de4d22d027a8cfdc2c954952e4de215eae47da6fb02e7a60"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-build_log-v14.2.0-armv6l-linux-musleabihf.tar.gz"
+[[GCC_support_libraries-build_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "b75008d9b959e762b7f1414b55c3e707f1df50df"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[GCC_support_libraries-build_log.download]]
+    sha256 = "7226437b496b84c47739e29d5c3f900951b32899f31f3df24358f2de4f630659"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-build_log-v14.2.0-armv7l-linux-musleabihf.tar.gz"
+[[GCC_support_libraries-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "3feff26b8f332fd2466ca42c2c5d28fb2b2c7b85"
+lazy = true
+os = "windows"
+
+    [[GCC_support_libraries-build_log.download]]
+    sha256 = "d4e4c97783e97a147fef0bf20d9ff2f3085f6a4175897d8531b2c4654992d3a2"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-build_log-v14.2.0-x86_64-w64-mingw32.tar.gz"
+[[GCC_support_libraries-build_log]]
+arch = "i686"
+git-tree-sha1 = "4204d6f4f82646e1e7e8cfb411f20e12e89dc0bc"
+lazy = true
+os = "windows"
+
+    [[GCC_support_libraries-build_log.download]]
+    sha256 = "d88a8da37e3900db1d370d5000c5e5165dfdfe5f87006f883575d34f7860cafe"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-build_log-v14.2.0-i686-w64-mingw32.tar.gz"
+[[GCC_support_libraries-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "9d160f3a80ad161bcd4e62c0194708efa4f9fc4a"
 lazy = true
 os = "macos"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "d0e604d1151874a1bcb00617ef0ce10918e186c7dbe7cb393d96296d46acbd0a"
+    sha256 = "7e683c88c12dbb02cf84e41ec78b7c87a32355bd8b63ab0f12e6fa05e2e65920"
     url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-build_log-v14.2.0-x86_64-apple-darwin.tar.gz"
+[[GCC_support_libraries-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "297be1531bbdbef82bdb9f53a6e30e1bebfd7757"
+lazy = true
+os = "macos"
+
+    [[GCC_support_libraries-build_log.download]]
+    sha256 = "35be2d55f4b1d0c9ef5de5dbf918539fef6eb5f9cd69d9b8d73509bca5b4d0a8"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-build_log-v14.2.0-aarch64-apple-darwin.tar.gz"
 
 [[GCC_support_libraries-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "7bfdc0538a527f64a3b47fe70e9b133b181d26b9"
+git-tree-sha1 = "d8893590ce4871e27ec05df28237442cc4fe55df"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[GCC_support_libraries-extract_log.download]]
+    sha256 = "4dc47100012f379299ac263492341d67c8ea49ba0d83fd0c8d2329429bbfe6d4"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-extract_log-v14.2.0-x86_64-linux-gnu.tar.gz"
+[[GCC_support_libraries-extract_log]]
+arch = "i686"
+git-tree-sha1 = "a74c15a64a1d3b1cff116087cc1299791494235f"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[GCC_support_libraries-extract_log.download]]
+    sha256 = "374662c52179b3a6988ca6457119afdc57c4d47cef5486671c2d2ae5b4e5e152"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-extract_log-v14.2.0-i686-linux-gnu.tar.gz"
+[[GCC_support_libraries-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "6f99af6771a1287b0e36436ea4d31d224d8d9d6d"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[GCC_support_libraries-extract_log.download]]
+    sha256 = "9e98e3438028dcc4505d2617a0eee3bde4a27ddd2db535986b742e3893e42bf1"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-extract_log-v14.2.0-aarch64-linux-gnu.tar.gz"
+[[GCC_support_libraries-extract_log]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "4f18f6d00639850d996957fa59f6703880c830c8"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[GCC_support_libraries-extract_log.download]]
+    sha256 = "f45a83b94198cc52d5271526df9fb26c27a84586c85f77e7e2d324ad70bd6711"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-extract_log-v14.2.0-armv6l-linux-gnueabihf.tar.gz"
+[[GCC_support_libraries-extract_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "53d02872739abb863928ce86627f78663311667d"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[GCC_support_libraries-extract_log.download]]
+    sha256 = "d94db7cc265488ce99f1f642b48f041cf8c0d0e98dbf4c1803a691a9e3fd6c7d"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-extract_log-v14.2.0-armv7l-linux-gnueabihf.tar.gz"
+[[GCC_support_libraries-extract_log]]
+arch = "powerpc64le"
+git-tree-sha1 = "3afd2e0403e907b2a50a7d98a3d418cd8038913d"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[GCC_support_libraries-extract_log.download]]
+    sha256 = "96dc4cf3bca8706c4b711a888a5d0d2450c80cf001983239edf73e3fe6a09ebf"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-extract_log-v14.2.0-powerpc64le-linux-gnu.tar.gz"
+[[GCC_support_libraries-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "9b3ffa28a239c50099e26f17ce28f92b34ff03d1"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[GCC_support_libraries-extract_log.download]]
+    sha256 = "431a054ff30166d9f91441a5db5397e6f7cf6c137830b3c18a3ee7fd440301f2"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-extract_log-v14.2.0-x86_64-linux-musl.tar.gz"
+[[GCC_support_libraries-extract_log]]
+arch = "i686"
+git-tree-sha1 = "ea771530a487b82bb714475703c84bf87e34cd1c"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[GCC_support_libraries-extract_log.download]]
+    sha256 = "25b7ea83cc436aae1d178319bae648c83b08d6d7de6a890f67ba26b539704455"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-extract_log-v14.2.0-i686-linux-musl.tar.gz"
+[[GCC_support_libraries-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "a8c77098d0197debbb400701c8e30c0e33e3475b"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[GCC_support_libraries-extract_log.download]]
+    sha256 = "b03ead97db43c86ec972ffbd3e78ed8468a8c46c29f9abd57fff4cfaeafefa0f"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-extract_log-v14.2.0-aarch64-linux-musl.tar.gz"
+[[GCC_support_libraries-extract_log]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "66b148fa333683c841d8e61918113597fa7d6fb8"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[GCC_support_libraries-extract_log.download]]
+    sha256 = "78acace8f629866cc1ce6344040d6b988b3ff42698248a0ced943ca04609af26"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-extract_log-v14.2.0-armv6l-linux-musleabihf.tar.gz"
+[[GCC_support_libraries-extract_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "93bf180ea254ffc32950b44f1c2214cebc03e8c7"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[GCC_support_libraries-extract_log.download]]
+    sha256 = "4a3ba4d7792d10b5181b96b10f50792f9576b0173cea5539be48f745fb4707a4"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-extract_log-v14.2.0-armv7l-linux-musleabihf.tar.gz"
+[[GCC_support_libraries-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "941ce7256f17b718cbbd20d32efd109c277e31a4"
+lazy = true
+os = "windows"
+
+    [[GCC_support_libraries-extract_log.download]]
+    sha256 = "892e870b3f0571637097039dcf8882652352a97bddc449ea5f602c0c9f1e12b6"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-extract_log-v14.2.0-x86_64-w64-mingw32.tar.gz"
+[[GCC_support_libraries-extract_log]]
+arch = "i686"
+git-tree-sha1 = "a16714adbd6c6249f882ff6872d5adcf64ec9160"
+lazy = true
+os = "windows"
+
+    [[GCC_support_libraries-extract_log.download]]
+    sha256 = "fdf1f0cf759fef72d2f201712c3db14bee10d4ecc29dd8e5b1be8fb3c150e6b8"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-extract_log-v14.2.0-i686-w64-mingw32.tar.gz"
+[[GCC_support_libraries-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "aa1852bca415bb4e034458e3bd2ef3d1f139af8f"
 lazy = true
 os = "macos"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "6769d36bdcfb495172dc90acf4b63c223187e9f8bfdb6067e2a585e609c6c913"
+    sha256 = "a9d11045440f997d21534930f4eba2dfeca469d2d0b996e1db924317cab7542b"
     url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-extract_log-v14.2.0-x86_64-apple-darwin.tar.gz"
+[[GCC_support_libraries-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "bb9972e085cfafdf662336d38b38084a11ce9fa9"
+lazy = true
+os = "macos"
+
+    [[GCC_support_libraries-extract_log.download]]
+    sha256 = "967c7522692bc45132102c4f030ed74a485c77fc3b53f4e9627e2c7de8c052ad"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0/GCC_support_libraries-extract_log-v14.2.0-aarch64-apple-darwin.tar.gz"

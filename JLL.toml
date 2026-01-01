@@ -1,5 +1,5 @@
 name = "GCC_support_libraries"
-version = "14.2.1"
+version = "14.2.0"
 julia_compat = "1.6"
 platform_augmentation_code = ""
 
@@ -32,18 +32,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:d325e9baad12f559c895cf3393d3a0084c31d0c4"
+    treehash = "sha1:9abf057701b6f78c74b753c8a201b292a3b1166b"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:c4a02b503a745402274f1bd9a86f1951f7bbb3a02d026fdb1a2048e6418d3b2a"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:547512044f186e3698810b78576411fc010723f5fc889486711260ecee2b20ca"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:cc82cffb6298d2bc635711417df7d8db982fa9fc"
+    treehash = "sha1:6222c507c609c1e850debacf867bff91d4e2d751"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:b939e28aaa54876639a5c8a5246e730f67b7e71cd34acaff7f623809f47e8ba1"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:f191bac326ff7bca4cc0e8432ba55c7cea023469d12753b25590a15e204c748d"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-x86_64-linux-gnu.tar.gz"
 
     [[builds.products]]
     deps = []
@@ -73,11 +73,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCC/patches-v14.2.0"
 
     [builds.artifact]
-    treehash = "sha1:7398d6793b56855da77226cf1a4146ecf22334de"
+    treehash = "sha1:dc0b792075a1823c46cd78c6e337f35a684d4271"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:5ef180e57d035e59c1703f7f779e10ecd4e066a64be597c6bf11b3400624dcbd"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-x86_64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:9b9dda3b5dc2ad2ab5145c95cf73c98a76e6ad0400b1f52582ea3c86ce647ff5"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-x86_64-linux-gnu.tar.gz"
 [[builds]]
 name = "GCC_support_libraries"
 platform = "i686-linux-gnu"
@@ -107,18 +107,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:aa94740fe28bcf504842cc1954ac2a78424087af"
+    treehash = "sha1:aed6ebe1914df7d1df0efa8c55286aa9658bf7a4"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:bb2acd37e5629445b2eab94c5b4cfe5ffa7a20fe2d44a52dc987fde931b477c2"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-i686-linux-gnu.tar.gz"
+        tarball_hash = "sha256:8186ca4f3abff2f51808f065c607a4f88c867bb54cb79dc1e19f27c611a2a930"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-i686-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:f926d3a42450f0c617bc58994d45dc6fb8f88871"
+    treehash = "sha1:2e96712c31c1f86f54314fccc7bc5294bb304b74"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:3e53d779b875c61a740fa74a024cf5f2f815247c5a3d1f98441b5f51bd12a7d2"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-i686-linux-gnu.tar.gz"
+        tarball_hash = "sha256:ac83389c739987f892dfdf91a86f994a874301c01c902034f7a3964c269f7d87"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-i686-linux-gnu.tar.gz"
 
     [[builds.products]]
     deps = []
@@ -148,11 +148,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCC/patches-v14.2.0"
 
     [builds.artifact]
-    treehash = "sha1:b42b8f958e322471af3a9a5d6d980708cc0793e6"
+    treehash = "sha1:bda0f67c98614399d2f679b3cb41ad20e3e5e748"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:1dec43af9f07ee29f301762b61e81a5f19525ad091e71bdfbd89037e98aad53e"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-i686-linux-gnu.tar.gz"
+        tarball_hash = "sha256:8bbc6cb1307ef8e1c76e1f437480f07d8edb7fcfeb6c8b98631cd33b1b6fb515"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-i686-linux-gnu.tar.gz"
 [[builds]]
 name = "GCC_support_libraries"
 platform = "aarch64-linux-gnu"
@@ -182,18 +182,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:be47d6347736fb8472c1d0ee64c2ae3343cac3a9"
+    treehash = "sha1:5a47559a72ca874076a5273a774dfee93a5b2cd3"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:11bb92663d32d2b29cc290601fc21c250487b8ead442ac12f8a6a2c22cc0c1de"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-aarch64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:59ef40fcd98a482e47a9042084da0864375d80dfcb72163b3d1bfc8a1a692361"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-aarch64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:e9bd4414060c631cdaaf8d89543c5fbff4141a91"
+    treehash = "sha1:b13c0901856cd3f16a1a7351000ebbe3caca2bc9"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:c185858a9eb4080eeb5f0689f73de506bbf95556dc2f9d7624887977ccd75ba1"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-aarch64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:a237d650c64809d3e862c35f9e17abf628f88e4916ce8fb25d524b1283b4eb69"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-aarch64-linux-gnu.tar.gz"
 
     [[builds.products]]
     deps = []
@@ -226,8 +226,8 @@ src_version = "14.2.0"
     treehash = "sha1:610ad7248d53e6fb51d6e0dc371cb68ddd1c5434"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:cf5529dfe28f39a04911e2cf32d3b0433f4e96ba5f7255f362b122b20ff2a484"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-aarch64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:e9739498a6367a481fc77ace9a6315230dcbdb9d819b8b09cd18885ef41a5874"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-aarch64-linux-gnu.tar.gz"
 [[builds]]
 name = "GCC_support_libraries"
 platform = "armv6l-linux-gnueabihf"
@@ -257,18 +257,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:47555a18b60b530dc3cfbe3847a57f7258e03f7a"
+    treehash = "sha1:89c443d46dc9a9bda37afc9549f66fb25d2baa65"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:43f7a1e4fde016c9852467ea0db9e76153e58e49df22c3d6b414180d8f284d48"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-armv6l-linux-gnueabihf.tar.gz"
+        tarball_hash = "sha256:b69bb4a166216ffea40687f9f4581244c3b1851b08e26c19ae1b44423199f947"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-armv6l-linux-gnueabihf.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:13ed995f1c57a649b577f7d9b1ff2c6b0ee8c2fd"
+    treehash = "sha1:ae79845c29b20aee8ccca9f6b6f3e73d93f3106d"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:b4d97d606e2c418ca287c46671ff9fd7ecb790c0ebbbac4eacfedd62064a78ec"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-armv6l-linux-gnueabihf.tar.gz"
+        tarball_hash = "sha256:c071da110ab738d06ce7f4d24267bb0782556dcf5d939e7e2928f2e792f2f6b8"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-armv6l-linux-gnueabihf.tar.gz"
 
     [[builds.products]]
     deps = []
@@ -301,8 +301,8 @@ src_version = "14.2.0"
     treehash = "sha1:539a0d8f08369f503bfcef81ff5f705faea24589"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:e9afa1780153f2eda3b786445623274e257214609e8da908d552fde9ef930b5e"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-armv6l-linux-gnueabihf.tar.gz"
+        tarball_hash = "sha256:f039601471388f30bb49ae8b3392ddf7574cab3715d742160d3e25ab618107a8"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-armv6l-linux-gnueabihf.tar.gz"
 [[builds]]
 name = "GCC_support_libraries"
 platform = "armv7l-linux-gnueabihf"
@@ -332,18 +332,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:fa166ec21ffd933edfdbc8b2eae02d2cd730d4b8"
+    treehash = "sha1:82544fe0763888d6fe43c9e48e93c45078d39c5e"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:59336758edf4dfe53cab2da6043e3e842fa8e4f170da0a199907a65347d479e8"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-armv7l-linux-gnueabihf.tar.gz"
+        tarball_hash = "sha256:b802434be897d069833b28b0898fb64a5d53f48ffc264991dbb8350e2e999701"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-armv7l-linux-gnueabihf.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:929a64314e71dcee14e95832740b5ebcf2f6ee8a"
+    treehash = "sha1:bc2fa1a38306b84729e5073d2396be969fd6b317"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:76bced3f91233c1c13bbcf3cd19825ba7655b419792531560e3d2bd14cee7893"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-armv7l-linux-gnueabihf.tar.gz"
+        tarball_hash = "sha256:29740e17cb82f0e0be6b0bada4d14d8da1950f5cbc9ec0aca66269dabb4b8b9d"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-armv7l-linux-gnueabihf.tar.gz"
 
     [[builds.products]]
     deps = []
@@ -376,8 +376,8 @@ src_version = "14.2.0"
     treehash = "sha1:2609eb883a788fc0df186b97a0323c54ad6e0c68"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:7bb25932a1619ab262271a8a7aed5dc57c8c7d07f6ac74c9cfe94d7576d6d5ff"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-armv7l-linux-gnueabihf.tar.gz"
+        tarball_hash = "sha256:57a4344a310b731f75814ea69d318ab318b4469e79c6a296b3ff0cbbe0b28853"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-armv7l-linux-gnueabihf.tar.gz"
 [[builds]]
 name = "GCC_support_libraries"
 platform = "powerpc64le-linux-gnu"
@@ -407,18 +407,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:3399aea774143d40c5818a86d827750abccf2651"
+    treehash = "sha1:8c2e46fce68c1e6a8c7b31f3cc408fcc3017346c"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:80dcf0d2ff99c06a07647b2abdd50f3fbeb21fd8a3a3108d6a016b44b275fcc9"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-powerpc64le-linux-gnu.tar.gz"
+        tarball_hash = "sha256:facf580071c80b08f928e4da689057543dc008b22f3d6477c167825271b64332"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-powerpc64le-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:57b466d9e65014fe63ce6d2394d71f6e981ea95c"
+    treehash = "sha1:0146592c92771405edc6c50602fdc436da0e3636"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:42f8fd5c469d41df5652da7582c1f97f2469c63b5a35ad12b3446fc2bcf83131"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-powerpc64le-linux-gnu.tar.gz"
+        tarball_hash = "sha256:17c607fd85ac53a1ef42ff20ea9e6eab0103840054493f36a99f160c7d0ad84d"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-powerpc64le-linux-gnu.tar.gz"
 
     [[builds.products]]
     deps = []
@@ -448,11 +448,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCC/patches-v14.2.0"
 
     [builds.artifact]
-    treehash = "sha1:85d7eaee01782074cc07c9b52ba86fd7a3391c14"
+    treehash = "sha1:cbe2bd0de7b563e56a3113e447d19c24427edff0"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:8a3d7e6f91218793fcc603028a62b0eaa83621cf93289c05833bac42bca0e2bb"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-powerpc64le-linux-gnu.tar.gz"
+        tarball_hash = "sha256:db68f94bcbeefef96ed5a41a3606b2faad9bddc73010011d23758bdd63a26f20"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-powerpc64le-linux-gnu.tar.gz"
 [[builds]]
 name = "GCC_support_libraries"
 platform = "x86_64-linux-musl"
@@ -485,15 +485,15 @@ src_version = "14.2.0"
     treehash = "sha1:2f67ab1e7d37f053fe9396ba81a0d4d5eefe88c6"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:17066c32ef32376f8edaec9efb621d22b0264cf2c4097ff8bc5d52d6bf87e6e3"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-x86_64-linux-musl.tar.gz"
+        tarball_hash = "sha256:bb380b6fdeec58d3b8e7ce333475212327407b458a3d06286ad7b39ff0cec880"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-x86_64-linux-musl.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
     treehash = "sha1:29ffabfb93f50cece0b54d0d09b3792936771c36"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:7facf47cb7e7e2d7562f0f882c9b5d5c618979eb80465cc3e2a4cfb099583727"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-x86_64-linux-musl.tar.gz"
+        tarball_hash = "sha256:2a7ce8af828a050014a5d8aba228a8d2831d1f1ba3b4ce79f51fdaee7585da37"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-x86_64-linux-musl.tar.gz"
 
     [[builds.products]]
     deps = []
@@ -526,8 +526,8 @@ src_version = "14.2.0"
     treehash = "sha1:81920533da420b57af83a7454736dfaa3a39f943"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:61040f81ea97c5f94b3cb8cbfd304d8132c000780577f3da3ee3610bbb136512"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-x86_64-linux-musl.tar.gz"
+        tarball_hash = "sha256:cb91b1ef5d7f71fe6bdbe86e61adecc746cc9a1b8dd68b36d59470c832c09bb1"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-x86_64-linux-musl.tar.gz"
 [[builds]]
 name = "GCC_support_libraries"
 platform = "i686-linux-musl"
@@ -560,15 +560,15 @@ src_version = "14.2.0"
     treehash = "sha1:ce3760c7b047480224677f8472a3774eee3cbc48"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:eb9d255481ae428ded2261cbd69788f948789582e9756144878658e2586385f9"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-i686-linux-musl.tar.gz"
+        tarball_hash = "sha256:caf3aae6216e3b16986299b779e67cf8c99ff910d57c299c52de40d669583cb2"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-i686-linux-musl.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
     treehash = "sha1:9ae6ef7630d13e5f3160817694439eac625f717a"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:3ac561a5535f4ff2e6908a6da2aab665d5146b3b55fd0bcb926f35afca09d98b"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-i686-linux-musl.tar.gz"
+        tarball_hash = "sha256:34014524947272ea95508bf192831fa4958180e94b97cbda5050271115d1da4e"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-i686-linux-musl.tar.gz"
 
     [[builds.products]]
     deps = []
@@ -601,8 +601,8 @@ src_version = "14.2.0"
     treehash = "sha1:ef9ab89c074011b6ce23d1eb58a17db46251c4bb"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:914f90c8d0c7deb340f1122ff14fdd4aeb3f962b22894d6f1542b67f75ee5a67"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-i686-linux-musl.tar.gz"
+        tarball_hash = "sha256:d2cd06aedfd4e20ece191347a946f6627a6100603f627989b9b33f9da443dbfb"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-i686-linux-musl.tar.gz"
 [[builds]]
 name = "GCC_support_libraries"
 platform = "aarch64-linux-musl"
@@ -635,15 +635,15 @@ src_version = "14.2.0"
     treehash = "sha1:3c60efaa5ddaf81d8197e8ac38a63e09efd2211b"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:b76452c929721c803708b4410a7360cf355a95303fb9c821d265525b1ecb1f09"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-aarch64-linux-musl.tar.gz"
+        tarball_hash = "sha256:e3cc0ef3425475bbf391dd4f623ee09b822485cb074a5aa25bdf99255901bc66"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-aarch64-linux-musl.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
     treehash = "sha1:23de57036e31ec7b3f2cd10f5b9a6c9d26c99c05"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:d5d6dc4aea23134f00e8cbf9102044cfee24905d43fc29824aad8c90ca18feaa"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-aarch64-linux-musl.tar.gz"
+        tarball_hash = "sha256:325fcc2ded175a810467f36b9f140556fccef7b257e8e54a2beaed3238d780d6"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-aarch64-linux-musl.tar.gz"
 
     [[builds.products]]
     deps = []
@@ -676,8 +676,8 @@ src_version = "14.2.0"
     treehash = "sha1:e08fcaa4c1e44cae93d1c1d1064a8c05acf42182"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:7e400f52d43ba231eb0802f03f06434da3eac6f75b7411adeb8d10aba1252765"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-aarch64-linux-musl.tar.gz"
+        tarball_hash = "sha256:2657e5e5d3d89c38a361bd5721f7845b9b596774c59c87b137dc3a1c61725eef"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-aarch64-linux-musl.tar.gz"
 [[builds]]
 name = "GCC_support_libraries"
 platform = "armv6l-linux-musleabihf"
@@ -710,15 +710,15 @@ src_version = "14.2.0"
     treehash = "sha1:22b2e94efcecef9599128503a581335f54fa7af7"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:f09b0c41c283cdff2eba4968ad743bce72cb5e805408cb9f16baabc4aaea00ad"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-armv6l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:72644828355ea57abc4189e8ee0d92d03bc91f56526e89293488f53dfe3d951c"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-armv6l-linux-musleabihf.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
     treehash = "sha1:d63b60ae90bdbb3e3f08b67c19d0d2a7cdc5067e"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:b8cac99d2ff0a90741b0840620b5cee505a0e112f7a15d0e5f06533c6efeb738"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-armv6l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:58a2f9a67ba44a048785ea37f8b31dd9b6ef1eb462c42654d712692a3096ad43"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-armv6l-linux-musleabihf.tar.gz"
 
     [[builds.products]]
     deps = []
@@ -751,8 +751,8 @@ src_version = "14.2.0"
     treehash = "sha1:61ffebbb794908b40a7c4205037fd8954991d0a3"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:3532a7280841d43a58d28d30999d631e8280a6088b3795c4be1efe7c61af7048"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-armv6l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:78eac5aab6ef1a4cc7eb2abbd4aac426b40f643653b351a1d8dc17ad33e09da9"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-armv6l-linux-musleabihf.tar.gz"
 [[builds]]
 name = "GCC_support_libraries"
 platform = "armv7l-linux-musleabihf"
@@ -785,15 +785,15 @@ src_version = "14.2.0"
     treehash = "sha1:a3a1b50de3942da0fefb4ba3b0d21f813bb299f5"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:75af8f2f2a29d5b6426ca5825fcfd925604a473aa30cf4bc5afb2bfeefb84ca1"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-armv7l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:85551f1b0b049407c45fb9fa85de485b336461fe20e31af93a354e4833fa2046"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-armv7l-linux-musleabihf.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
     treehash = "sha1:018b00e1859c3846f1184cffc84a7dc54d185723"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:9c56e66642b2a01d13cdccd9409e5b65a9ee1d5243a21326c2133c819901c019"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-armv7l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:d4975c23354adbf7a4737061f6e9714ed45a098f47705b686cce0fa8842ec370"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-armv7l-linux-musleabihf.tar.gz"
 
     [[builds.products]]
     deps = []
@@ -826,8 +826,8 @@ src_version = "14.2.0"
     treehash = "sha1:f6cd70ee4a1de88a53c28bcc5d3a21c5f9b22313"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:39511bad7b725227f4448e666a5c5dd0943051a11ff0b3ac82c15d8b9dede398"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-armv7l-linux-musleabihf.tar.gz"
+        tarball_hash = "sha256:391664d9181d9838a53bcf16dd3f91439c43b1f31666d73c99e8c88a39ba82aa"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-armv7l-linux-musleabihf.tar.gz"
 [[builds]]
 name = "GCC_support_libraries"
 platform = "x86_64-w64-mingw32"
@@ -857,18 +857,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:f22c92d6e9bf8a35c8ab46b1f0546d752563ceba"
+    treehash = "sha1:6bed452bf8d55121517db4bb3efc4b11130e3846"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:fb59d69fd7523ce8229c83cc2cf9f4de76f5af09f5d2df760df783dd425fb48e"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-x86_64-w64-mingw32.tar.gz"
+        tarball_hash = "sha256:b0ab8333940845c5aec52329cfeb6a50dbaa761c2df81b37c542b84d90deab8c"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-x86_64-w64-mingw32.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:97ea830a4bfbe763b5a0605d5856c6e1a87681e0"
+    treehash = "sha1:2420104853e5d6ba9c531d2236ccd60dcfa88fc1"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:5e8b90f6b80ce78a98e8483e6b762ed3fc60f4f6564d9cd315a1cde12eee0f84"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-x86_64-w64-mingw32.tar.gz"
+        tarball_hash = "sha256:1abc4c4709fd2680ee261e1b9c439fdbc98adf280895321fa010e9419072fef8"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-x86_64-w64-mingw32.tar.gz"
 
     [[builds.products]]
     deps = []
@@ -898,11 +898,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCC/patches-v14.2.0"
 
     [builds.artifact]
-    treehash = "sha1:5ad9411cd88b4c8c1731247a91ce79ad3a99c439"
+    treehash = "sha1:3788854b8fa0be5519ab8aaa8030813a297cfc87"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:99915d7c8d8a1bb2af6bfaff883163c8fd95582fabee9c42300cd4589c3a6eac"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-x86_64-w64-mingw32.tar.gz"
+        tarball_hash = "sha256:baab26dd82077dd8a6a4f1a68e6b26844629fbb71da1f3f5cac3514c9cc75906"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-x86_64-w64-mingw32.tar.gz"
 [[builds]]
 name = "GCC_support_libraries"
 platform = "i686-w64-mingw32"
@@ -932,18 +932,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:b445779393ea9c0f3f9b5760c46e3f45b43f20a3"
+    treehash = "sha1:9bd7f98cdc48f48364fe8f6072d49e81e2dc8cf7"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:8a289b393f5f61a535c91d50186b242f8bd4c03cb78e194c858218a5d4cdf137"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-i686-w64-mingw32.tar.gz"
+        tarball_hash = "sha256:e74ac486e8185cccf4c3e639be49aea38801fe1b6e4f5b486ec9cfd6c0139730"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-i686-w64-mingw32.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:ec783a9ab323b2eeb23a346c49f66acd20579df1"
+    treehash = "sha1:a83bba13de4dafd0b6dba2de5cec985137c62941"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:e49baa48f233a43f185d5e26ff4946e382bc13e56451d4fd82b5d4df6d5b1f54"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-i686-w64-mingw32.tar.gz"
+        tarball_hash = "sha256:4e7232784fc254a2fe27f591c7a09c595f100d67acff8a4bd66057f24e04868d"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-i686-w64-mingw32.tar.gz"
 
     [[builds.products]]
     deps = []
@@ -973,11 +973,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCC/patches-v14.2.0"
 
     [builds.artifact]
-    treehash = "sha1:612aff220b25519c6ce66dabd2a9b5770a446d63"
+    treehash = "sha1:686065efe7bd3775317f990ff8ab0cd420cee89d"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:fc8bbe9af78777970cc91632f1745c48c616b1931390f4ac3d61c3e0d6e29332"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-i686-w64-mingw32.tar.gz"
+        tarball_hash = "sha256:15e596cee3f6962183690b3989a30701c88e37b6d7018ac60ebeca604d2dd4dc"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-i686-w64-mingw32.tar.gz"
 [[builds]]
 name = "GCC_support_libraries"
 platform = "x86_64-apple-darwin20"
@@ -1007,18 +1007,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:ec4625c7236b4b810a308b7d51120cb59669d95c"
+    treehash = "sha1:26c4f31ab96bf43e28edfa65d41493cabff249ca"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:b3c0415e68a6303b1aadad6eda0afc4d0ec69181704abb43ca8820a7a22555c7"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-x86_64-apple-darwin20.tar.gz"
+        tarball_hash = "sha256:451d262fa3f0284c04e9ff6c4599982ac68dc5cd2af0b8d294d5e307d1d33556"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-x86_64-apple-darwin20.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:d75251fd49e64112cf9cc279e5d52dec34cd24e9"
+    treehash = "sha1:6b7f1be9703633ab465590a6f080264af323541d"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:2e11cdfa7156e291c96850e8e70cc118158614b6330728dbbccc5ce83aa7a6c8"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-x86_64-apple-darwin20.tar.gz"
+        tarball_hash = "sha256:1a359352588d45cc99efbb5641394c5bef4ec6c503203b02a3f6a35a27c01b70"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-x86_64-apple-darwin20.tar.gz"
 
     [[builds.products]]
     deps = []
@@ -1048,11 +1048,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCC/patches-v14.2.0"
 
     [builds.artifact]
-    treehash = "sha1:a97e7357164adf284d310912b33ec68783bc9f2d"
+    treehash = "sha1:9aa44a8ecc06d10304dc7ab69d8932271d03cbd0"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:b2d3d759dbdf9d9e3212375b29d0889815b6e999dc97ebe0e1cebbb7d86edfa6"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-x86_64-apple-darwin20.tar.gz"
+        tarball_hash = "sha256:3f80f3ed0ae8829dbe74ec59e4f2ca27e49bf5946dfe4a3c4c06986b6d594ee1"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-x86_64-apple-darwin20.tar.gz"
 [[builds]]
 name = "GCC_support_libraries"
 platform = "aarch64-apple-darwin20"
@@ -1082,18 +1082,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:a3b26b21c48a8373864d0a297f0af2b39599bf35"
+    treehash = "sha1:cc413fa16426b5436714303da8dc6f7abdf658a6"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:a003e5014d3374455401923d60ac68874bbaca170dd254f92547dbe9ffb6e3d6"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-aarch64-apple-darwin20.tar.gz"
+        tarball_hash = "sha256:df8a0f94c96967484713b7f4aa50ea550cbc4dbe22a51b8b2576ccc105ccf04a"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-aarch64-apple-darwin20.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:96da3d377864b6c621f7f8d348fda1fb6460a01d"
+    treehash = "sha1:21d3989d1789a35f04b497c7d700bd3013ead539"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:3b8c1afde8106170ad78b31078abd51ae1e1cf281a4b0f2f36ea832e4232019d"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-aarch64-apple-darwin20.tar.gz"
+        tarball_hash = "sha256:39cda549809890c7472120ffedd3f4a644b18d63e6690dbede73a506b29cf189"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-aarch64-apple-darwin20.tar.gz"
 
     [[builds.products]]
     deps = []
@@ -1123,11 +1123,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCC/patches-v14.2.0"
 
     [builds.artifact]
-    treehash = "sha1:cfd6db944aa36818b265c4dbf3d9e3cf8a9cd994"
+    treehash = "sha1:3bddeca5b1b1455fe3974adfb5e3f1aa5dc2af5b"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:1cc3f05707473458dc565faa9b2e3a6292a8bb2dc7f048c0d360a18906df87e8"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-aarch64-apple-darwin20.tar.gz"
+        tarball_hash = "sha256:e258636fdd6d19374938282956d772b5e471f507b023ef52906c2fa9ce9b5964"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-aarch64-apple-darwin20.tar.gz"
 [[builds]]
 name = "GCC_support_libraries"
 platform = "x86_64-unknown-freebsd14.1"
@@ -1157,18 +1157,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:18f6adfca554c68bcdea6cb1891bd9859fc94063"
+    treehash = "sha1:601fbba1322b634d5911b8dc3abb0cce8c651dd8"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:28026b10c41cf4837e9dcb118d7c7d0b84fb6a03d6d2667bc903f063fd7ed5fb"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-x86_64-unknown-freebsd14.1.tar.gz"
+        tarball_hash = "sha256:ef6b60f2d000479f689ac6df300a113956763f29212b052b38b3b49197017209"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-x86_64-unknown-freebsd14.1.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:4b0ee31aa62b4e2db52b2190ccaff57c2c25f382"
+    treehash = "sha1:53d7362119c89f84037711f013cce35cb6cfa9f4"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:f37f76f861c37b8c0664b92ac6448103fa9abd2d5b00063d46b8ec6873cc35d6"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-x86_64-unknown-freebsd14.1.tar.gz"
+        tarball_hash = "sha256:a09ebef821f521b104b9b7affd77a75284dde50a2fd4a3e29ce09f1597c77c62"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-x86_64-unknown-freebsd14.1.tar.gz"
 
     [[builds.products]]
     deps = []
@@ -1201,8 +1201,8 @@ src_version = "14.2.0"
     treehash = "sha1:bf2d2018bd4ba134b32cdd69c0507dec6321b6e4"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:97ae54059f0dc05d6ce58719ab6c603bdae9600800bf50121792d06314654643"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-x86_64-unknown-freebsd14.1.tar.gz"
+        tarball_hash = "sha256:9601f04641372a0e8a497aa53138b0814a23aec2d4e4a5c95411b294d1e76d7a"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-x86_64-unknown-freebsd14.1.tar.gz"
 [[builds]]
 name = "GCC_support_libraries"
 platform = "aarch64-unknown-freebsd14.1"
@@ -1232,18 +1232,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:7526815a17ef114bbb550e8d0dbba98e5739b971"
+    treehash = "sha1:2a6c83d7659bc1a9268d47bd7b5a6587926cc7a9"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:81bd1e0fc9ac1214ce0880bd2f0db889502a54ce8c7b69367449d48ea575658b"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-aarch64-unknown-freebsd14.1.tar.gz"
+        tarball_hash = "sha256:eb483c5d80e34f9ff0c680a497b639efdda4bb6d5f962a9bbf9377a74c0e1555"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-aarch64-unknown-freebsd14.1.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:aa8961e7c490e6b39fdd669152c2a6bdd49fc58d"
+    treehash = "sha1:7251a618bf23f051fcdfe7e3b6371dd7aacf271c"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:21c61017cf2fd33238b6ffe9fbb7e2084526475b383ed6a1a2aae158a1ea6294"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-aarch64-unknown-freebsd14.1.tar.gz"
+        tarball_hash = "sha256:f24ac0a6b1ba282b67d654325c92ac3334e0f00f60c85b67c2d2aae6469d9a65"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-aarch64-unknown-freebsd14.1.tar.gz"
 
     [[builds.products]]
     deps = []
@@ -1276,5 +1276,5 @@ src_version = "14.2.0"
     treehash = "sha1:5cac2734f2246394e081fdfd58c8152f38a5cadf"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:999585d9bf84c60b5ade41289d28c06c24284c9a400f1161150f8daddacf2169"
-        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-aarch64-unknown-freebsd14.1.tar.gz"
+        tarball_hash = "sha256:4fd782e740cc0c365dfd6c60180ea6d31dd30ae7124fa2c51d125a843eadcae8"
+        url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-aarch64-unknown-freebsd14.1.tar.gz"

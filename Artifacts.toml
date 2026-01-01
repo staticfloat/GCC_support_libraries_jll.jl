@@ -1,12 +1,12 @@
 [[GCC_support_libraries]]
 arch = "aarch64"
-git-tree-sha1 = "18ab7ef072197b708b1a7dd5fdf05e7749f4f90f"
+git-tree-sha1 = "cfd6db944aa36818b265c4dbf3d9e3cf8a9cd994"
 os = "macos"
 os_version = "20.0.0"
 
     [[GCC_support_libraries.download]]
-    sha256 = "145ef762d7260eda5f5bb3a55acda24d693e622e4d5c4633c7ee70672a47d227"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-aarch64-apple-darwin20.tar.gz"
+    sha256 = "1cc3f05707473458dc565faa9b2e3a6292a8bb2dc7f048c0d360a18906df87e8"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-aarch64-apple-darwin20.tar.gz"
 [[GCC_support_libraries]]
 arch = "aarch64"
 git-tree-sha1 = "610ad7248d53e6fb51d6e0dc371cb68ddd1c5434"
@@ -14,8 +14,8 @@ libc = "glibc"
 os = "linux"
 
     [[GCC_support_libraries.download]]
-    sha256 = "d9a5cca100e97f1c2f3d500aa87e1cdbef7cde77b225dfdd1d44fca76870ef3f"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "cf5529dfe28f39a04911e2cf32d3b0433f4e96ba5f7255f362b122b20ff2a484"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-aarch64-linux-gnu.tar.gz"
 [[GCC_support_libraries]]
 arch = "aarch64"
 git-tree-sha1 = "e08fcaa4c1e44cae93d1c1d1064a8c05acf42182"
@@ -23,8 +23,8 @@ libc = "musl"
 os = "linux"
 
     [[GCC_support_libraries.download]]
-    sha256 = "b8abd0389d79a3f10c5ecfeb5ca8f17b2a36cb328bfbdda3d1b14be2ae0a1beb"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-aarch64-linux-musl.tar.gz"
+    sha256 = "7e400f52d43ba231eb0802f03f06434da3eac6f75b7411adeb8d10aba1252765"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-aarch64-linux-musl.tar.gz"
 [[GCC_support_libraries]]
 arch = "aarch64"
 git-tree-sha1 = "5cac2734f2246394e081fdfd58c8152f38a5cadf"
@@ -32,8 +32,8 @@ os = "freebsd"
 os_version = "14.1.0"
 
     [[GCC_support_libraries.download]]
-    sha256 = "5b050908d2fe503f977cf54c1405347b2df2c01f97e32568356530908b6a4e0a"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-aarch64-unknown-freebsd14.1.tar.gz"
+    sha256 = "999585d9bf84c60b5ade41289d28c06c24284c9a400f1161150f8daddacf2169"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-aarch64-unknown-freebsd14.1.tar.gz"
 [[GCC_support_libraries]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -42,8 +42,8 @@ libc = "glibc"
 os = "linux"
 
     [[GCC_support_libraries.download]]
-    sha256 = "7a00c3c4450ae7bd2319838c502dbd4d63ddc7c6a94160f65965200566bc121e"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "e9afa1780153f2eda3b786445623274e257214609e8da908d552fde9ef930b5e"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-armv6l-linux-gnueabihf.tar.gz"
 [[GCC_support_libraries]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -52,8 +52,8 @@ libc = "musl"
 os = "linux"
 
     [[GCC_support_libraries.download]]
-    sha256 = "10988d988288b43315b086fc399003edf8b1602af01cb37885f4901f566a688e"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-armv6l-linux-musleabihf.tar.gz"
+    sha256 = "3532a7280841d43a58d28d30999d631e8280a6088b3795c4be1efe7c61af7048"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-armv6l-linux-musleabihf.tar.gz"
 [[GCC_support_libraries]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -62,8 +62,8 @@ libc = "glibc"
 os = "linux"
 
     [[GCC_support_libraries.download]]
-    sha256 = "5d721068e6a67eb3c03f6becf0fbfb845731a59cbedf292038a06de976b7f6a4"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "7bb25932a1619ab262271a8a7aed5dc57c8c7d07f6ac74c9cfe94d7576d6d5ff"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-armv7l-linux-gnueabihf.tar.gz"
 [[GCC_support_libraries]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -72,8 +72,8 @@ libc = "musl"
 os = "linux"
 
     [[GCC_support_libraries.download]]
-    sha256 = "4ab90ff376188720be46ed57d6a14f658e2abd0d4d24aa326bc57ac6fe75695c"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-armv7l-linux-musleabihf.tar.gz"
+    sha256 = "39511bad7b725227f4448e666a5c5dd0943051a11ff0b3ac82c15d8b9dede398"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-armv7l-linux-musleabihf.tar.gz"
 [[GCC_support_libraries]]
 arch = "i686"
 git-tree-sha1 = "b42b8f958e322471af3a9a5d6d980708cc0793e6"
@@ -81,8 +81,8 @@ libc = "glibc"
 os = "linux"
 
     [[GCC_support_libraries.download]]
-    sha256 = "dbb3a1c310d3a963e79e678f0341ac2875725df864d1b70e180438e55d2451aa"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-i686-linux-gnu.tar.gz"
+    sha256 = "1dec43af9f07ee29f301762b61e81a5f19525ad091e71bdfbd89037e98aad53e"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-i686-linux-gnu.tar.gz"
 [[GCC_support_libraries]]
 arch = "i686"
 git-tree-sha1 = "ef9ab89c074011b6ce23d1eb58a17db46251c4bb"
@@ -90,16 +90,16 @@ libc = "musl"
 os = "linux"
 
     [[GCC_support_libraries.download]]
-    sha256 = "e39fab6122acd5564058ea2b689bf8135dfd2eafd879cfe10a300c3e726d5f70"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-i686-linux-musl.tar.gz"
+    sha256 = "914f90c8d0c7deb340f1122ff14fdd4aeb3f962b22894d6f1542b67f75ee5a67"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-i686-linux-musl.tar.gz"
 [[GCC_support_libraries]]
 arch = "i686"
-git-tree-sha1 = "c6371457379b32727e9c72c76e7f26fec6c31843"
+git-tree-sha1 = "612aff220b25519c6ce66dabd2a9b5770a446d63"
 os = "windows"
 
     [[GCC_support_libraries.download]]
-    sha256 = "1f0e97b95fd574ff20784c1dcd221e3eb0326afaa9314d38dd914146351e1604"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-i686-w64-mingw32.tar.gz"
+    sha256 = "fc8bbe9af78777970cc91632f1745c48c616b1931390f4ac3d61c3e0d6e29332"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-i686-w64-mingw32.tar.gz"
 [[GCC_support_libraries]]
 arch = "powerpc64le"
 git-tree-sha1 = "85d7eaee01782074cc07c9b52ba86fd7a3391c14"
@@ -107,17 +107,17 @@ libc = "glibc"
 os = "linux"
 
     [[GCC_support_libraries.download]]
-    sha256 = "7030ab23513bc0fcb944b48a2abae2d4ad3004136ff7142f33d48f15d3bdd67d"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-powerpc64le-linux-gnu.tar.gz"
+    sha256 = "8a3d7e6f91218793fcc603028a62b0eaa83621cf93289c05833bac42bca0e2bb"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-powerpc64le-linux-gnu.tar.gz"
 [[GCC_support_libraries]]
 arch = "x86_64"
-git-tree-sha1 = "1881e276af84b358121f23d4eabece0b5d35ef3c"
+git-tree-sha1 = "a97e7357164adf284d310912b33ec68783bc9f2d"
 os = "macos"
 os_version = "20.0.0"
 
     [[GCC_support_libraries.download]]
-    sha256 = "1b9f6a344afe785ac0069bcb2d3d231226b79e463b93b01166b0f256ca9f7b32"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-x86_64-apple-darwin20.tar.gz"
+    sha256 = "b2d3d759dbdf9d9e3212375b29d0889815b6e999dc97ebe0e1cebbb7d86edfa6"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-x86_64-apple-darwin20.tar.gz"
 [[GCC_support_libraries]]
 arch = "x86_64"
 git-tree-sha1 = "7398d6793b56855da77226cf1a4146ecf22334de"
@@ -125,8 +125,8 @@ libc = "glibc"
 os = "linux"
 
     [[GCC_support_libraries.download]]
-    sha256 = "377b9e32752d23d5aaf4264ceac4257d46c9912fe83b21594640785aabaaed75"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-x86_64-linux-gnu.tar.gz"
+    sha256 = "5ef180e57d035e59c1703f7f779e10ecd4e066a64be597c6bf11b3400624dcbd"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-x86_64-linux-gnu.tar.gz"
 [[GCC_support_libraries]]
 arch = "x86_64"
 git-tree-sha1 = "81920533da420b57af83a7454736dfaa3a39f943"
@@ -134,8 +134,8 @@ libc = "musl"
 os = "linux"
 
     [[GCC_support_libraries.download]]
-    sha256 = "0d6bc3fcbd5727b4c6afde2a6a8d7c5b83ad5d8df8733821f0bc885fd6f7a620"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-x86_64-linux-musl.tar.gz"
+    sha256 = "61040f81ea97c5f94b3cb8cbfd304d8132c000780577f3da3ee3610bbb136512"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-x86_64-linux-musl.tar.gz"
 [[GCC_support_libraries]]
 arch = "x86_64"
 git-tree-sha1 = "bf2d2018bd4ba134b32cdd69c0507dec6321b6e4"
@@ -143,359 +143,359 @@ os = "freebsd"
 os_version = "14.1.0"
 
     [[GCC_support_libraries.download]]
-    sha256 = "a06415f078b3241775f464c00ca234f2a5bfd44b5d2f246fca1f230e95655858"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-x86_64-unknown-freebsd14.1.tar.gz"
+    sha256 = "97ae54059f0dc05d6ce58719ab6c603bdae9600800bf50121792d06314654643"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-x86_64-unknown-freebsd14.1.tar.gz"
 [[GCC_support_libraries]]
 arch = "x86_64"
-git-tree-sha1 = "02c2c246bf09b489c02795f4430028e10c1e5754"
+git-tree-sha1 = "5ad9411cd88b4c8c1731247a91ce79ad3a99c439"
 os = "windows"
 
     [[GCC_support_libraries.download]]
-    sha256 = "6eb8430493610dfcddc3d0b0ffb086848442994114860cb7c1947dbc560d7543"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.0-x86_64-w64-mingw32.tar.gz"
+    sha256 = "99915d7c8d8a1bb2af6bfaff883163c8fd95582fabee9c42300cd4589c3a6eac"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-v14.2.1-x86_64-w64-mingw32.tar.gz"
 
 [[GCC_support_libraries-build_log]]
 arch = "aarch64"
-git-tree-sha1 = "9599cd30bcb69214cb2a104f85425d94f47a2b87"
+git-tree-sha1 = "a3b26b21c48a8373864d0a297f0af2b39599bf35"
 lazy = true
 os = "macos"
 os_version = "20.0.0"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "26f16dbb90ba0b2e7f46781b1407c7a9bcb42830942edf808598010616b7e8b4"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-aarch64-apple-darwin20.tar.gz"
+    sha256 = "a003e5014d3374455401923d60ac68874bbaca170dd254f92547dbe9ffb6e3d6"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-aarch64-apple-darwin20.tar.gz"
 [[GCC_support_libraries-build_log]]
 arch = "aarch64"
-git-tree-sha1 = "e9db2051b01c70e947679b432b7d0db3152db113"
+git-tree-sha1 = "be47d6347736fb8472c1d0ee64c2ae3343cac3a9"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "daba5d5ae431bb1136de1d6f72227dbe9fd6d001cb3db825413a24db61acd9cf"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "11bb92663d32d2b29cc290601fc21c250487b8ead442ac12f8a6a2c22cc0c1de"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-aarch64-linux-gnu.tar.gz"
 [[GCC_support_libraries-build_log]]
 arch = "aarch64"
-git-tree-sha1 = "d918d92755bc26339c3b228d808a3df166af07f3"
+git-tree-sha1 = "3c60efaa5ddaf81d8197e8ac38a63e09efd2211b"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "4165b02bb1e51a7e04528b09095e5381f14e700586f08ad3fd920f80f62b56b4"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-aarch64-linux-musl.tar.gz"
+    sha256 = "b76452c929721c803708b4410a7360cf355a95303fb9c821d265525b1ecb1f09"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-aarch64-linux-musl.tar.gz"
 [[GCC_support_libraries-build_log]]
 arch = "aarch64"
-git-tree-sha1 = "2703e4fb60650aed4038dd6222dbbb0df99ee6a0"
+git-tree-sha1 = "7526815a17ef114bbb550e8d0dbba98e5739b971"
 lazy = true
 os = "freebsd"
 os_version = "14.1.0"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "34187ebfb1050b7b3d812cb7f805386b8aa51532cafa665b05041fca6c304a43"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-aarch64-unknown-freebsd14.1.tar.gz"
+    sha256 = "81bd1e0fc9ac1214ce0880bd2f0db889502a54ce8c7b69367449d48ea575658b"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-aarch64-unknown-freebsd14.1.tar.gz"
 [[GCC_support_libraries-build_log]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "2f2c7208094e6cede9c4d5fd6bd1ef5d819292cf"
+git-tree-sha1 = "47555a18b60b530dc3cfbe3847a57f7258e03f7a"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "0b857843c3f63a021ee01c118faee08a9539aeff9e41b63f8d07192b2226e949"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "43f7a1e4fde016c9852467ea0db9e76153e58e49df22c3d6b414180d8f284d48"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-armv6l-linux-gnueabihf.tar.gz"
 [[GCC_support_libraries-build_log]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "30ae2b92b49807e4cdc7d26346ee65eecbb708a7"
+git-tree-sha1 = "22b2e94efcecef9599128503a581335f54fa7af7"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "9c4401b7437cdf17ea625efebcee6edd1f0110f5794140d1b3f3ed3f496f8391"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-armv6l-linux-musleabihf.tar.gz"
+    sha256 = "f09b0c41c283cdff2eba4968ad743bce72cb5e805408cb9f16baabc4aaea00ad"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-armv6l-linux-musleabihf.tar.gz"
 [[GCC_support_libraries-build_log]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "b7ec696879b79bd5480f707fcfe895bfd79a9a15"
+git-tree-sha1 = "fa166ec21ffd933edfdbc8b2eae02d2cd730d4b8"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "1baf64d13a3c731d7876c62082e6292f02e7afb6145076e129d3ce181d14c34b"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "59336758edf4dfe53cab2da6043e3e842fa8e4f170da0a199907a65347d479e8"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-armv7l-linux-gnueabihf.tar.gz"
 [[GCC_support_libraries-build_log]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "2d8ff7b9ba55c405fd4d35add06d8a7b0f30a4bb"
+git-tree-sha1 = "a3a1b50de3942da0fefb4ba3b0d21f813bb299f5"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "612227ea9dc8ee9cc651ddc026f910889b191ca97e7c9382b624d878013823fa"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-armv7l-linux-musleabihf.tar.gz"
+    sha256 = "75af8f2f2a29d5b6426ca5825fcfd925604a473aa30cf4bc5afb2bfeefb84ca1"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-armv7l-linux-musleabihf.tar.gz"
 [[GCC_support_libraries-build_log]]
 arch = "i686"
-git-tree-sha1 = "c0747aaa32246ad7ec3442789877a59cb52653a9"
+git-tree-sha1 = "aa94740fe28bcf504842cc1954ac2a78424087af"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "b1f2326c0679de3b5a1c9aaae11d5b787231664d951e1d22e81f894b246db4e7"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-i686-linux-gnu.tar.gz"
+    sha256 = "bb2acd37e5629445b2eab94c5b4cfe5ffa7a20fe2d44a52dc987fde931b477c2"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-i686-linux-gnu.tar.gz"
 [[GCC_support_libraries-build_log]]
 arch = "i686"
-git-tree-sha1 = "b846e3f6970f071fb2cb2fb0982c68dbd2026d17"
+git-tree-sha1 = "ce3760c7b047480224677f8472a3774eee3cbc48"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "4c789dce1045c4d58bc0844c8c4f3a4811853707a4f02f0aebdea7d2fb32454a"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-i686-linux-musl.tar.gz"
+    sha256 = "eb9d255481ae428ded2261cbd69788f948789582e9756144878658e2586385f9"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-i686-linux-musl.tar.gz"
 [[GCC_support_libraries-build_log]]
 arch = "i686"
-git-tree-sha1 = "143860e7ea8bd1619efcacff5c897dc3a5b8a751"
+git-tree-sha1 = "b445779393ea9c0f3f9b5760c46e3f45b43f20a3"
 lazy = true
 os = "windows"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "327ff2fea28d0370eac0c8154ce58603cfa850740aa4dcd7aac60127cd76d456"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-i686-w64-mingw32.tar.gz"
+    sha256 = "8a289b393f5f61a535c91d50186b242f8bd4c03cb78e194c858218a5d4cdf137"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-i686-w64-mingw32.tar.gz"
 [[GCC_support_libraries-build_log]]
 arch = "powerpc64le"
-git-tree-sha1 = "f0d0ef7c865224c3421c72dcb7e33878bbb66553"
+git-tree-sha1 = "3399aea774143d40c5818a86d827750abccf2651"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "67c9abf61d3b54aeb23007b600006ca008f0d81136ac2fa7f5d6b211e367bcab"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-powerpc64le-linux-gnu.tar.gz"
+    sha256 = "80dcf0d2ff99c06a07647b2abdd50f3fbeb21fd8a3a3108d6a016b44b275fcc9"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-powerpc64le-linux-gnu.tar.gz"
 [[GCC_support_libraries-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "792cb18689c886de3eb1118b223a1b129b566b50"
+git-tree-sha1 = "ec4625c7236b4b810a308b7d51120cb59669d95c"
 lazy = true
 os = "macos"
 os_version = "20.0.0"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "1a1551ded3371a041a25f56697e37910a2aa0c8f446e50dd72770e95ef22774d"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-x86_64-apple-darwin20.tar.gz"
+    sha256 = "b3c0415e68a6303b1aadad6eda0afc4d0ec69181704abb43ca8820a7a22555c7"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-x86_64-apple-darwin20.tar.gz"
 [[GCC_support_libraries-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "5ed47cca3a9563f82bd8d5510bec69ebb49dd2f9"
+git-tree-sha1 = "d325e9baad12f559c895cf3393d3a0084c31d0c4"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "84308cccbfcec80ee451345fffe731749eeb6fe8d770e7facdbb7339f47cead9"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-x86_64-linux-gnu.tar.gz"
+    sha256 = "c4a02b503a745402274f1bd9a86f1951f7bbb3a02d026fdb1a2048e6418d3b2a"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-x86_64-linux-gnu.tar.gz"
 [[GCC_support_libraries-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "fea687c766e667803322e03c4ae63751849f5d51"
+git-tree-sha1 = "2f67ab1e7d37f053fe9396ba81a0d4d5eefe88c6"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "100b20a077060a77a37f3c34339d1f96de0fe20fb5058285aa35b455f59ecb59"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-x86_64-linux-musl.tar.gz"
+    sha256 = "17066c32ef32376f8edaec9efb621d22b0264cf2c4097ff8bc5d52d6bf87e6e3"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-x86_64-linux-musl.tar.gz"
 [[GCC_support_libraries-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "019ea10f8d9421280a6ac149ed22042d7392ba25"
+git-tree-sha1 = "18f6adfca554c68bcdea6cb1891bd9859fc94063"
 lazy = true
 os = "freebsd"
 os_version = "14.1.0"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "3689e88cbab91bb2af390b319b80228dfd21430be96287417a05029bf8f0b4ce"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-x86_64-unknown-freebsd14.1.tar.gz"
+    sha256 = "28026b10c41cf4837e9dcb118d7c7d0b84fb6a03d6d2667bc903f063fd7ed5fb"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-x86_64-unknown-freebsd14.1.tar.gz"
 [[GCC_support_libraries-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "13d624e864249fd70f415c8622e1e92516997369"
+git-tree-sha1 = "f22c92d6e9bf8a35c8ab46b1f0546d752563ceba"
 lazy = true
 os = "windows"
 
     [[GCC_support_libraries-build_log.download]]
-    sha256 = "274182d2b44342e5e4bbd0b579037153607631a8c7a7cf6f4f698b643e0daa61"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.0-x86_64-w64-mingw32.tar.gz"
+    sha256 = "fb59d69fd7523ce8229c83cc2cf9f4de76f5af09f5d2df760df783dd425fb48e"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-build_log-v14.2.1-x86_64-w64-mingw32.tar.gz"
 
 [[GCC_support_libraries-extract_log]]
 arch = "aarch64"
-git-tree-sha1 = "13553e36b99c4ba5b87d0366853c8610c8b984d0"
+git-tree-sha1 = "96da3d377864b6c621f7f8d348fda1fb6460a01d"
 lazy = true
 os = "macos"
 os_version = "20.0.0"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "2c2f3ab776d003029f026551c2485c5478727d820a252a73ab02d8152ee9f766"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-aarch64-apple-darwin20.tar.gz"
+    sha256 = "3b8c1afde8106170ad78b31078abd51ae1e1cf281a4b0f2f36ea832e4232019d"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-aarch64-apple-darwin20.tar.gz"
 [[GCC_support_libraries-extract_log]]
 arch = "aarch64"
-git-tree-sha1 = "ec664f823eaba241e6466915dae25e461a539357"
+git-tree-sha1 = "e9bd4414060c631cdaaf8d89543c5fbff4141a91"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "aef05a1e9167e7369d5c95e02472ff817673a66ebd11d771bf5022f6c1aeb3f7"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "c185858a9eb4080eeb5f0689f73de506bbf95556dc2f9d7624887977ccd75ba1"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-aarch64-linux-gnu.tar.gz"
 [[GCC_support_libraries-extract_log]]
 arch = "aarch64"
-git-tree-sha1 = "d1c4d975bde530274efb3299ed8b40e4896b01ef"
+git-tree-sha1 = "23de57036e31ec7b3f2cd10f5b9a6c9d26c99c05"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "e8e4ea89eccb88d0e834daa7bbfa2b4ae82559cf57bde265346c0b948c82c683"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-aarch64-linux-musl.tar.gz"
+    sha256 = "d5d6dc4aea23134f00e8cbf9102044cfee24905d43fc29824aad8c90ca18feaa"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-aarch64-linux-musl.tar.gz"
 [[GCC_support_libraries-extract_log]]
 arch = "aarch64"
-git-tree-sha1 = "e06dcd44a06ccc76e105197f13ad6d1ef8b92fa7"
+git-tree-sha1 = "aa8961e7c490e6b39fdd669152c2a6bdd49fc58d"
 lazy = true
 os = "freebsd"
 os_version = "14.1.0"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "ed33c61a45c39d1fd774a51401518b9f1c4b3be6485bc024c097c1737edb5489"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-aarch64-unknown-freebsd14.1.tar.gz"
+    sha256 = "21c61017cf2fd33238b6ffe9fbb7e2084526475b383ed6a1a2aae158a1ea6294"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-aarch64-unknown-freebsd14.1.tar.gz"
 [[GCC_support_libraries-extract_log]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "7d25952a228301257c40db8174b9533b3de13869"
+git-tree-sha1 = "13ed995f1c57a649b577f7d9b1ff2c6b0ee8c2fd"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "995cf01443d376faf3a322787ca1809941a64d1079fe3d72272ca949f2b2d27d"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "b4d97d606e2c418ca287c46671ff9fd7ecb790c0ebbbac4eacfedd62064a78ec"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-armv6l-linux-gnueabihf.tar.gz"
 [[GCC_support_libraries-extract_log]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "62cab5bdee07539ec5364803991ae63e700d84aa"
+git-tree-sha1 = "d63b60ae90bdbb3e3f08b67c19d0d2a7cdc5067e"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "92ada7e8c646ce80047450a34851c3c6c1e35808590c6e63a275ef516b86a8b0"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-armv6l-linux-musleabihf.tar.gz"
+    sha256 = "b8cac99d2ff0a90741b0840620b5cee505a0e112f7a15d0e5f06533c6efeb738"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-armv6l-linux-musleabihf.tar.gz"
 [[GCC_support_libraries-extract_log]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "7aa24b2094445beaf1c4045d73db3013fd021166"
+git-tree-sha1 = "929a64314e71dcee14e95832740b5ebcf2f6ee8a"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "c3b140f2ed68f67ac363e9efc3bf3a04dff8b30f416eb79c9788d6af632d36ca"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "76bced3f91233c1c13bbcf3cd19825ba7655b419792531560e3d2bd14cee7893"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-armv7l-linux-gnueabihf.tar.gz"
 [[GCC_support_libraries-extract_log]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "035fc5185e607e0b97010a8950988a7218c8dd80"
+git-tree-sha1 = "018b00e1859c3846f1184cffc84a7dc54d185723"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "f058abb721e85fa338f97260052d1858a3550731668f4c09b4c412051466b1c2"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-armv7l-linux-musleabihf.tar.gz"
+    sha256 = "9c56e66642b2a01d13cdccd9409e5b65a9ee1d5243a21326c2133c819901c019"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-armv7l-linux-musleabihf.tar.gz"
 [[GCC_support_libraries-extract_log]]
 arch = "i686"
-git-tree-sha1 = "9a0819e746190b72242c1167ed57304a9c281820"
+git-tree-sha1 = "f926d3a42450f0c617bc58994d45dc6fb8f88871"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "eedecb2e870fdbaced5a66943169fe19bd163a1a19a147dc28e0d5f1a4b8706b"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-i686-linux-gnu.tar.gz"
+    sha256 = "3e53d779b875c61a740fa74a024cf5f2f815247c5a3d1f98441b5f51bd12a7d2"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-i686-linux-gnu.tar.gz"
 [[GCC_support_libraries-extract_log]]
 arch = "i686"
-git-tree-sha1 = "08033939b24bd32e5d67b8ddc9b2ed78b90824ed"
+git-tree-sha1 = "9ae6ef7630d13e5f3160817694439eac625f717a"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "b7b5d33b07e84d881df2a5041434d8eca6054035cf0b65b73200c09ec20f8241"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-i686-linux-musl.tar.gz"
+    sha256 = "3ac561a5535f4ff2e6908a6da2aab665d5146b3b55fd0bcb926f35afca09d98b"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-i686-linux-musl.tar.gz"
 [[GCC_support_libraries-extract_log]]
 arch = "i686"
-git-tree-sha1 = "eb2a2f0cfd6ec368afc6bdbba28b225075a03e6f"
+git-tree-sha1 = "ec783a9ab323b2eeb23a346c49f66acd20579df1"
 lazy = true
 os = "windows"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "d827aac7d3e006afd79b16cab07f4e76f3a8bbad87599d0b6e40d077fcf90e53"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-i686-w64-mingw32.tar.gz"
+    sha256 = "e49baa48f233a43f185d5e26ff4946e382bc13e56451d4fd82b5d4df6d5b1f54"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-i686-w64-mingw32.tar.gz"
 [[GCC_support_libraries-extract_log]]
 arch = "powerpc64le"
-git-tree-sha1 = "bdc95c70a6de17bff3c8878c6139830540a06200"
+git-tree-sha1 = "57b466d9e65014fe63ce6d2394d71f6e981ea95c"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "6965748f817c9728970670e0bbf3f3a05b627a714d5b5166aa5b26c4cb59143a"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-powerpc64le-linux-gnu.tar.gz"
+    sha256 = "42f8fd5c469d41df5652da7582c1f97f2469c63b5a35ad12b3446fc2bcf83131"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-powerpc64le-linux-gnu.tar.gz"
 [[GCC_support_libraries-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "d324e43640871c6dc10fc2b05926cc872ee85c07"
+git-tree-sha1 = "d75251fd49e64112cf9cc279e5d52dec34cd24e9"
 lazy = true
 os = "macos"
 os_version = "20.0.0"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "eb1a1ccec200461d76925a1d29ffd07f32bf43cf0c8ae066ba07eb30621da979"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-x86_64-apple-darwin20.tar.gz"
+    sha256 = "2e11cdfa7156e291c96850e8e70cc118158614b6330728dbbccc5ce83aa7a6c8"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-x86_64-apple-darwin20.tar.gz"
 [[GCC_support_libraries-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "b101ee72a2c835e4daf5d4cdd714ea83a89af68c"
+git-tree-sha1 = "cc82cffb6298d2bc635711417df7d8db982fa9fc"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "b5375dfc72da12a6d4397cd6145c7bf50905de09aaee766d7a5fa58c0e1bd0e2"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-x86_64-linux-gnu.tar.gz"
+    sha256 = "b939e28aaa54876639a5c8a5246e730f67b7e71cd34acaff7f623809f47e8ba1"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-x86_64-linux-gnu.tar.gz"
 [[GCC_support_libraries-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "7ff596ebafd74080efddea9db762703722a4a9e0"
+git-tree-sha1 = "29ffabfb93f50cece0b54d0d09b3792936771c36"
 lazy = true
 libc = "musl"
 os = "linux"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "e778593215a54bf68778be60f0a95fe62f5e1de8eb5268b18554f84f1be05c84"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-x86_64-linux-musl.tar.gz"
+    sha256 = "7facf47cb7e7e2d7562f0f882c9b5d5c618979eb80465cc3e2a4cfb099583727"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-x86_64-linux-musl.tar.gz"
 [[GCC_support_libraries-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "78d07b63105dcb7108cb42143c831adc8a9acdd8"
+git-tree-sha1 = "4b0ee31aa62b4e2db52b2190ccaff57c2c25f382"
 lazy = true
 os = "freebsd"
 os_version = "14.1.0"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "baacd97144cd1a5d3377e6d0df5833343ca151613e2dc748e3fca696198fb929"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-x86_64-unknown-freebsd14.1.tar.gz"
+    sha256 = "f37f76f861c37b8c0664b92ac6448103fa9abd2d5b00063d46b8ec6873cc35d6"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-x86_64-unknown-freebsd14.1.tar.gz"
 [[GCC_support_libraries-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "851ab4a84fa3f17579bbc632804e1e4174da9686"
+git-tree-sha1 = "97ea830a4bfbe763b5a0605d5856c6e1a87681e0"
 lazy = true
 os = "windows"
 
     [[GCC_support_libraries-extract_log.download]]
-    sha256 = "62ad424666a4d29fa2a058038f51b09ef63674d4ef33aaafb53d9857d35ee2bc"
-    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.0-x86_64-w64-mingw32.tar.gz"
+    sha256 = "5e8b90f6b80ce78a98e8483e6b762ed3fc60f4f6564d9cd315a1cde12eee0f84"
+    url = "https://github.com/staticfloat/GCC_support_libraries_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCC_support_libraries-extract_log-v14.2.1-x86_64-w64-mingw32.tar.gz"
